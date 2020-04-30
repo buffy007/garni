@@ -1,8 +1,7 @@
 <?php
 // script: Garni Weather Station server PHP script
 // version: 1.0
-// author: Petr Fismol
-// website: buffy.cz
+// author: Petr Fismol (buffy.cz)
 $export = "{";
 foreach ($_GET as $key => $value) {
 	$export .=  '"' . $key . '":"' . $value . '",';

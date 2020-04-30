@@ -22,10 +22,13 @@ Check your php script if everything works OK. Go to your website in browser:
 Now you should find file **garni.json** in data directory
 > myweb.com/weatherstation/data/garni.json
 
-In garni.json file you will see these information
+In garni.json file you should see these information
 >{"manufacturer":"Garni"}
 
-If you see correct testing information, try start your Garni Meteo device. You should see in garni.json data values from your device.
+Also, this is output of php script. You should see same information in your browser. If you want switch off this output, please comment this line in php script
+>//echo $export;
+
+If you see correct testing information in browser and also in file, try start your Garni Meteo device. You should see in garni.json data values from your device.
 
 ## Known bugs
 - there is problem if you use SSL on your server. You need to use port 80

@@ -10,7 +10,7 @@ This simple php script gets data values from your Garni Meteo Station and covert
 In your Garni device, you should add your domain where you will save you JSON file, for example **myweb.com**
 
 1. use ftp and connect to your server (domain myweb.com)
-2. make directory **weatherstation**
+2. make directory **weatherstation** in web root
 3. upload script **updateweatherstation.php** to **/weatherstation** directory
 4. make directory **data** in **/weatherstation**
 5. change **/data** directory attributes to **755**

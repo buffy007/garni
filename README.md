@@ -16,13 +16,13 @@ In your Garni device, you should add your domain where you will save you JSON fi
 5. change **/data** directory attributes to **755** (chmod 755)
 
 ## Testing
-Check your php script if everything works OK. Go to your website:
+Check your php script if everything works OK. Go to your website in browser:
 > myweb.com/weatherstation/updateweatherstation.php
 
-You should find file **garni.json** in data directory
+Now you should find file **garni.json** in data directory
 > myweb.com/weatherstation/data/garni.json
 
-with these information
+In garni.json file you will see these information
 >{"manufacturer":"Garni"}
 
 If you see correct testing information, try start your Garni Meteo device. You should see in garni.json data values from your device.

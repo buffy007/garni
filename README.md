@@ -13,9 +13,12 @@ In your Garni device, you should add your domain where you will save you JSON fi
 ## Testing
 Check your php script if everything works OK. Go to your website:
 > myweb.com/weatherstation/updateweatherstation.php
+
 You should find file **garni.json** in data directory with these information
 >{"manufacturer":"Garni"}
 
+
 ## Known bugs
 - there is problem if you use SSL on your server. You need to use port 80
-- in JSON file there are last data values, no history (but I can make it)
+- incorrect JSON headers
+- in JSON file there are last data values, no history (but I can make it in future)

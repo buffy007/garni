@@ -26,7 +26,7 @@ In garni.json file you should see these information
 >{"manufacturer":"Garni"}
 
 Also, this is output of php script. You should see same information in your browser. If you want switch off this output, please comment this line in php script
->//echo $export;
+>// echo $export;
 
 If you see correct testing information in browser and also in file, try start your Garni Meteo device. You should see in garni.json data values from your device.
 

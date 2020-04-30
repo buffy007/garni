@@ -1,6 +1,11 @@
 # Garni Weather Station server PHP script
 This simple php script gets data values from your Garni Meteo Station and coverts it to JSON file on your server. You need to setup few things.
 
+## Requirements
+- linux php webhosting with any domain (I did not test IP address version and also windows server with php)
+- php 5.6+
+- ftp connection to your server (you also need ftp client, or Total Commander)
+
 ## Instalation
 In your Garni device, you should add your domain where you will save you JSON file, for example **myweb.com**
 
@@ -17,6 +22,7 @@ Check your php script if everything works OK. Go to your website:
 You should find file **garni.json** in data directory with these information
 >{"manufacturer":"Garni"}
 
+If you see correct testing information, try start your Garni Meteo device. You should see in garni.json data values from your device.
 
 ## Known bugs
 - there is problem if you use SSL on your server. You need to use port 80

@@ -1,5 +1,5 @@
 # Garni Weather Station server PHP script
-This simple php script gets data values from your Garni Meteo Station and coverts it to JSON file on your server. You need to setup few things.
+This simple php script gets data values from your Garni Meteo Station and coverts everything to JSON file on your server. You need to setup few things before start.
 
 ## Requirements
 - linux php webhosting with any domain (I did not test IP address version and also windows server with php)

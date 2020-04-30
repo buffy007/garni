@@ -1,7 +1,7 @@
 <?php
 $export = "{";
 foreach ($_GET as $key => $value) {
-	$export .=  '"'.$key . '":"' . $value . '",';
+	$export .=  '"' . $key . '":"' . $value . '",';
 }
 $export .= '"manufacturer":"Garni"}';
 echo $export;

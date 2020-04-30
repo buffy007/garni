@@ -37,3 +37,8 @@ If you want switch off php output, please comment this line in php script
 - there is problem if you use SSL (https) on your server. You need to use port 80 (http)
 - incorrect JSON headers in php output
 - in JSON file there are last data values, no history (but I can make it in future)
+
+## Future
+- local JSON history files
+- history data in SQL database
+- history data visualization

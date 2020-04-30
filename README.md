@@ -19,7 +19,10 @@ In your Garni device, you should add your domain where you will save you JSON fi
 Check your php script if everything works OK. Go to your website:
 > myweb.com/weatherstation/updateweatherstation.php
 
-You should find file **garni.json** in data directory with these information
+You should find file **garni.json** in data directory
+> myweb.com/weatherstation/data/garni.json
+
+with these information
 >{"manufacturer":"Garni"}
 
 If you see correct testing information, try start your Garni Meteo device. You should see in garni.json data values from your device.

@@ -35,5 +35,5 @@ If you want switch off php output, please comment this line in php script
 
 ## Known bugs
 - there is problem if you use SSL on your server. You need to use port 80
-- incorrect JSON headers
+- incorrect JSON headers in php output
 - in JSON file there are last data values, no history (but I can make it in future)

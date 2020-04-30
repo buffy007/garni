@@ -1,5 +1,6 @@
 <?php
 // script: Garni Weather Station server PHP script
+// version: 1.0
 // author: Petr Fismol
 // website: buffy.cz
 $export = "{";

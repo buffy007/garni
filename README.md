@@ -3,7 +3,7 @@ This simple php script gets data values from your Garni Meteo Station and covert
 
 ## Requirements
 - linux php webhosting with any domain (I did not test IP address version and also windows server with php)
-- php 5.6+
+- php 5.3+ (tested on 5.6, 7.1)
 - ftp connection to your server (you also need ftp client, or Total Commander)
 
 ## Instalation

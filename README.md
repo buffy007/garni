@@ -27,7 +27,7 @@ In garni.json file you should see these information
 
 Also, this is output of php script. You should see same information in your browser. 
 
-If you see correct testing information in browser and also in file, **close your browser and never use testing URL again**. Now, try start your Garni Meteo device and insert there correct domain name (only). You should see data values from your device in garni.json file.
+If you see correct testing information in browser and also in file, **close your browser and never use testing URL again**. Now, try start your Garni Meteo device and insert there correct **domain name (only)**. The URL label is misleading and you must enter only domain name. Device will always use `weatherstation/updateweatherstation.php` to submit data and that can't be changed. You should see data values from your device in garni.json file.
 
 ## Options
 If you want switch off php output, please comment this line in php script
